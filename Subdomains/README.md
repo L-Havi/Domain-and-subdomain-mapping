@@ -10,7 +10,7 @@ It works in any UNIX based operating systems and in Windows if Python is install
 Syntax: python subdomain_mapper.py
 
 [*] Example:
-  python subdomain_mapper.py                  This command starts discovering subdomains and displays ones it has found (If domain was set 
-                                              to google.com, scholar.google.com would be found for example)
+  python subdomain_mapper.py                  This command starts discovering subdomains and displays ones it has found 
+                                              (If domain was set to google.com, scholar.google.com would be found for example)
 
 ```
