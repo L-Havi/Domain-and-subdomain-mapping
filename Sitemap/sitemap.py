@@ -1,11 +1,21 @@
 #! /usr/bin/env python
 
+import optparse
 import requests
 import re
 import urllib.parse
 
-target_url = "Insert your target domain here"
 target_links = []
+
+
+def get_arguments():
+    parser = optparse.OptionParser()
+    parser.add_option("-u", "--url", dest="url", help="Target URL to use for scanning (e.g. https://www.example.com)")
+    (options, arguments) = parser.parse_args()
+    if not options.url:
+        parser.error("[-] Please specify a valid URL, use --help for more info")
+    else:
+        return options
 
 
 def extract_links_from(url):
@@ -26,4 +36,12 @@ def crawl(url):
             crawl(link)
 
 
+options = get_arguments()
+
+target_url = options.url
+
+print()
+print("-----------------------------------------------------")
+print("Found URLs from target: " + target_url)
+print("-----------------------------------------------------")
 crawl(target_url)
