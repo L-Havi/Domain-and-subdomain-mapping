@@ -13,7 +13,7 @@ Syntax: python sitemap.py [--help] [--url URL]
   -u URL, --url URL                                   Specify the website's URL to use for sitemapping
 
 [*] Example:
-  python sitemap.py -u https://www.example.com        This command starts discovering sitemap for site www.example.com and displays it 
+  python sitemap.py -u https://www.example.com        This command starts discovering the sitemap for the site www.example.com and displays it 
 
 ```
 
