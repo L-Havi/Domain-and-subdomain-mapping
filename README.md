@@ -15,7 +15,7 @@ Executables work even if Python is not installed
 ###### Subdomain Finder
 
 ```
-Syntax: python subdomain_mapper.exe [--help] [--url URL] [--wordlist WORDLIST]
+Syntax: subdomain_mapper.exe [--help] [--url URL] [--wordlist WORDLIST]
 
 
 [*] Options:
@@ -24,7 +24,7 @@ Syntax: python subdomain_mapper.exe [--help] [--url URL] [--wordlist WORDLIST]
   -w WORDLIST, --wordlist WORDLIST                                           Specify the wordlist used to discover subdomains
 
 [*] Example:
-  python subdomain_mapper.exe -u example.com -w wordlist.txt                 This command starts discovering subdomains using base URL example.com 
+  subdomain_mapper.exe -u example.com -w wordlist.txt                        This command starts discovering subdomains using base URL example.com 
                                                                              and wordlist wordlist.txt and displays subdomains it has found 
 
 ```
@@ -32,13 +32,13 @@ Syntax: python subdomain_mapper.exe [--help] [--url URL] [--wordlist WORDLIST]
 ###### Sitemapper
 
 ```
-Syntax: python sitemap.exe [--help] [--url URL]
+Syntax: sitemap.exe [--help] [--url URL]
 
 [*] Options:
   -u URL, --url URL                                   Specify the website's URL to use for sitemapping
 
 [*] Example:
-  python sitemap.exe -u https://www.example.com       This command starts discovering the sitemap for the site www.example.com and displays it 
+  sitemap.exe -u https://www.example.com              This command starts discovering the sitemap for the site www.example.com and displays it 
 
 ```
 
