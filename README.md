@@ -1,4 +1,4 @@
-# Domain-and-subdomain-mapping
+# Sitemapper & Subdomain Finder tools 
 
 These tools allow you to discover target domains subdomains. Please these tools only with domains you have permission to scan
 
