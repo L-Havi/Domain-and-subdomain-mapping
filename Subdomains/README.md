@@ -7,10 +7,16 @@ It works in any UNIX based operating systems and in Windows if Python is install
 ## Usage
 
 ```
-Syntax: python subdomain_mapper.py
+Syntax: python subdomain_mapper.py [--help] [--url URL] [--wordlist WORDLIST]
+
+
+[*] Options:
+  -u URL, --url URL                                                          Specify the website's URL to use for sitemapping
+  
+  -w WORDLIST, --wordlist WORDLIST                                           Specify the wordlist used to discover subdomains
 
 [*] Example:
-  python subdomain_mapper.py                  This command starts discovering subdomains and displays ones it has found 
-                                              (If domain was set to google.com, scholar.google.com would be found for example)
+  python subdomain_mapper.py -u example.com -w wordlist.txt                  This command starts discovering subdomains using base URL example.com 
+                                                                             and wordlist wordlist.txt and displays subdomains it has found 
 
 ```
