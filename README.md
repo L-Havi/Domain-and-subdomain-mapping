@@ -6,7 +6,7 @@ Subdomain finder uses a large wordlist file included in the same folder. Other w
 
 Sitemapper maps all links related to the domain and creates a map based on these links. (Unrelated links like link to youtube for example will be disregarded)
 
-Python files works in any UNIX based operating systems and in Windows if Python is installed
+Python files work in any UNIX based operating systems and in Windows if Python is installed
 
 Executables work even if Python is not installed
 
